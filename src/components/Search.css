@@ -1,0 +1,16 @@
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+label,
+input,
+button {
+  margin: 10px;
+}
+
+input {
+  width: 50vw;
+}
