@@ -30,6 +30,7 @@ class App extends Component {
     return (
       <Fragment>
         <Search getJsonUrl={this.getJsonUrl} />
+        <JsonOutput value={this.state.json} />
       </Fragment>
     )
   }

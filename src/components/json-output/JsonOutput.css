@@ -1,0 +1,28 @@
+ul,
+li {
+  list-style-type: none;
+  font-family: Consolas, 'Courier New', monospace;
+  margin: 0 0 0 25px;
+  padding: 0;
+  border: none;
+}
+
+li > button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+.number {
+  color: blue;
+}
+
+.text {
+  color: red;
+}
+
+.null {
+  color: lightgray;
+}
