@@ -15,6 +15,10 @@ class Search extends Component {
     this.setState({ url: event.target.value })
   }
 
+  getJsonUrl = () => {
+    this.props.getJsonUrl(this.state.url)
+  }
+
   render() {
     return (
       <div className='search-container'>
@@ -27,7 +31,7 @@ class Search extends Component {
           onChange={this.handleInput}
         />
 
-        <button>Show JSON</button>
+        <button onClick={this.getJsonUrl}>Show JSON</button>
       </div>
     )
   }
