@@ -7,16 +7,22 @@ class ToggleButton extends Component {
 
   render() {
     const { value, isOpened } = this.props
-    const { length } = Object.keys(value)
-
+    
     if (!value || typeof value !== 'object') {
       return <Fragment />
     }
-
-
+    
+    const { length } = Object.keys(value)
+    
     return (
       <Fragment>
-        {length ? <button onClick={this.toggleChildren}>{isOpened ? '-' : '+'}</button> : ''}
+        {length ? (
+          <button className="toggle-button" onClick={this.toggleChildren}>
+            {isOpened ? <Fragment>&#9662;</Fragment> : <Fragment>&#9656;</Fragment>}
+          </button>
+        ) : (
+          ''
+        )}
       </Fragment>
     )
   }

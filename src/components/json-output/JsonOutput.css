@@ -2,9 +2,10 @@ ul,
 li {
   list-style-type: none;
   font-family: Consolas, 'Courier New', monospace;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 18px;
   padding: 0;
   border: none;
+  font-size: 14px;
 }
 
 li > button {
@@ -16,13 +17,18 @@ li > button {
 }
 
 .number {
-  color: blue;
+  color: #1A01CC;
 }
 
 .text {
-  color: red;
+  color: #0B7552;
 }
 
 .null {
   color: lightgray;
+}
+
+
+.toggle-button{
+  margin-left: -24px;
 }

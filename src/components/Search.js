@@ -22,16 +22,14 @@ class Search extends Component {
   render() {
     return (
       <div className='search-container'>
-        <label>JSON URL</label>
-
         <input
           type='text'
-          placeholder='Enter JSON URL'
+          placeholder='Enter url'
           value={this.state.url}
           onChange={this.handleInput}
         />
 
-        <button onClick={this.getJsonUrl}>Show JSON</button>
+        <button className='show-button' onClick={this.getJsonUrl}>Show JSON</button>
       </div>
     )
   }
