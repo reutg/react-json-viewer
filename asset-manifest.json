@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-json-viewer/static/css/main.74edb255.chunk.css",
+    "main.js": "/react-json-viewer/static/js/main.ef56eac2.chunk.js",
+    "main.js.map": "/react-json-viewer/static/js/main.ef56eac2.chunk.js.map",
+    "runtime~main.js": "/react-json-viewer/static/js/runtime~main.25c93ca3.js",
+    "runtime~main.js.map": "/react-json-viewer/static/js/runtime~main.25c93ca3.js.map",
+    "static/js/2.0272be25.chunk.js": "/react-json-viewer/static/js/2.0272be25.chunk.js",
+    "static/js/2.0272be25.chunk.js.map": "/react-json-viewer/static/js/2.0272be25.chunk.js.map",
+    "index.html": "/react-json-viewer/index.html",
+    "precache-manifest.aa69efe6f7b0a9af927340babd87a71e.js": "/react-json-viewer/precache-manifest.aa69efe6f7b0a9af927340babd87a71e.js",
+    "service-worker.js": "/react-json-viewer/service-worker.js",
+    "static/css/main.74edb255.chunk.css.map": "/react-json-viewer/static/css/main.74edb255.chunk.css.map"
+  }
+}
