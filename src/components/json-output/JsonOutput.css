@@ -31,4 +31,5 @@ li > button {
 
 .toggle-button{
   margin-left: -24px;
+  position: absolute;
 }
